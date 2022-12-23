@@ -1,0 +1,12 @@
+server:
+  port: 8056
+  address: 127.0.0.1
+spring:
+  data:
+    mongodb:
+      database: appdb
+      port: 27017
+      host: 127.0.0.1
+      username: "yangqs"
+      password: "19941120"
+      authentication-database: admin
