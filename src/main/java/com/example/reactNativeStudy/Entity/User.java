@@ -43,6 +43,26 @@ public class User {
                 '}';
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public String getAccount() {
+        return account;
+    }
+
+    public UserBaseInfo getBaseInfo() {
+        return baseInfo;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
